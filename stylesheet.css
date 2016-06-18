@@ -39,51 +39,57 @@ body
 	
 #aliens
 	{
-	position:fixed;
-	right: 600px;
-	bottom: 100px;
+		position:fixed;
+		right: 600px;
+		bottom: 100px;
 	}
 	
 #ayy
 	{
-	position:fixed;
-	left:0px;
-	top:200px;
+		position:fixed;
+		left:0px;
+		top:200px;
 	}
 	
 #ayy2
 	{
-	position:fixed;
-	right:100px;
-	top:200px;
+		position:fixed;
+		right:100px;
+		top:200px;
+	}
+	
+#lmao
+	{
+		position:fixed;
+		bottom:-10px;
 	}
 
 #explo
 	{
-	position:fixed;
-	left:250px;
+		position:fixed;
+		left:250px;
 		
 	}
 
 #explo2
 	{	
-	position:fixed;
-	top:50px;
-	left:250px;
+		position:fixed;
+		top:50px;
+		left:250px;
 	}
 
 #explo3
 	{
-	top:50px;
-	position:fixed;
-	right:250px;
+		top:50px;
+		position:fixed;
+		right:250px;
 		
 	}
 	
 #explo4
 	{
-	position:fixed;	
-	right:250px;
+		position:fixed;	
+		right:250px;
 	}
 
 
