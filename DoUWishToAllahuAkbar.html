@@ -8,6 +8,18 @@
 	</head>
 	
 	<script>
+		// Changes the title from "DoUWishToAllahuAkbar" to "absolutely haram!"
+		function haram() 
+		{
+			document.title = "absolutely haram!"; 
+		}
+
+		function ayy() 
+		{
+			document.title = "git gud"; 
+		}
+		
+		// Audio and Picture functions
 		function playAllahu()
 		{
 		   var audio = document.getElementById("audio");
@@ -68,12 +80,12 @@
 	
 	<body>	
 		<div id="wrap"><div id="text">
-			<button class="button button1" onclick="playAllahu();explo();explo2();explo3();explo4();"> 
+			<button class="button button1" onclick="playAllahu();haram();explo();explo2();explo3();explo4();;"> 
 				<audio id="audio" src="Sounds/AllahuSong.mp3"></audio>
 					Allahu Akbar
 			</button>
 
-			<button class="button button2" onclick="playAyy();pic2();pic3();pic4();pic5();">
+			<button class="button button2" onclick="playAyy();ayy();pic2();pic3();pic4();pic5();">
 				<audio id="audio2" src="Sounds/AyySong.mp3"></audio>
 					Ayy Lmao
 			</button>
