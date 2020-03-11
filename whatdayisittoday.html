@@ -1,6 +1,6 @@
 <html>
 	<title>
-		What Day Is It Today?
+		What Should We Eat Today?
 	</title>
 
 	<head>
@@ -44,7 +44,7 @@
 			#text
 			{
 				font-size:24pt;
-				display:table-cell;	
+				display:table-cell;
 				vertical-align:middle;
 				text-align:center;
 			}
@@ -64,11 +64,11 @@
 		<div id="wrap"><div id="text">
 			<a href="">ayy is  day.</a>
 		</div></div>
-		
+
 		<div id="credit">
-			by <a href="index.html"> Yung God </a>, 2016
+			by <a href="index.html"> Yung God </a>, 2020
 		</div>
-		
+
 		<script>
 
 			function Choose(arr) {return arr[Math.floor(Math.random()*arr.length)];}
@@ -76,9 +76,9 @@
 			function Generate()
 			{
 				document.getElementById('text').innerHTML=('<a href="javascript:Generate();">'+
-				'Today is '+
-				Choose(['shoulder ','arm ','chest ','back ','ab ','leg '])+
-				' day.'
+				'We should eat '+
+				Choose(['In n Out ','Buffalo Wild Wings ','WingStop ','Pieology ','Popeyes ','Carls Jr ','Chick Fil A ','Tutto Fresco ','Olive Garden   ','Tacos ','BJs ','Buca di Beppo Jr ','Cheesecake Factory ','Lazy Dog  ','Gen KBBQ ','Boiling Crab ','Ramen ','Clydes Hot Chicken ','Pho '])+
+				' today!'
 				+
 				'</a>'
 				);
